@@ -1,0 +1,22 @@
+name: 🎓 Learning Path
+description: This is a Learning Path
+labels:
+  - kind/learning
+  - triage/accepted
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Test description
+
+  - type: dropdown
+    id: learning_paths
+    attributes:
+      label: Assign relevant learning paths to new member's onboarding process.
+      multiple: true
+      options:
+        - CCOE | Ten Twenty One | Google Cloud Architect
+
+        - CCOE | App Modernization
+
+        - CCOE | Ten Twenty One | Google Cloud Security Engineer
